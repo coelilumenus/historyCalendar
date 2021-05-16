@@ -1,0 +1,71 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Podkova', serif; */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item { 
+    padding: 90px 10px 90px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;     
+}
+
+.description {
+    position: relative;
+    width: 553px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FBD784;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.description::before {
+    left: -40px;
+    top: 7px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.description::after {
+    right: -40px;
+    bottom: 7px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.caption {
+    margin: 60px auto 0 auto;
+    text-align: center;
+    font-family: 'Podkova', serif;
+    font-weight: 500;
+    font-size: 88px;
+    color: #ffffff;
+}
+
+.history {
+    background-image: url("images/BG-history.jpg");
+}
+
