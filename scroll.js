@@ -17,7 +17,11 @@ if (animItems.length > 0) {
 
             if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
                 animItem.classList.add('_active')
-            } else {}
+            } else {
+                if (!animItem.classList.contains('_anim-no-hide')) {
+                    animItem.classList.remove('_active')
+                }
+            }
         }
     }
     function offset(el) {
@@ -26,5 +30,7 @@ if (animItems.length > 0) {
         scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
     }
-    animOnScroll();
+    setTimeout(() => {
+        animOnScroll();
+    }, 400);
 }
