@@ -3,7 +3,7 @@ font-family: 'Noto Sans', sans-serif; */
 
 .history {
     min-width: 1400px;
-    background-image: url("../images/BG-art.jpg");
+    background-image: url("/historyCalendar/images/BG-art.jpg");
 }
 
 .hostory-main {

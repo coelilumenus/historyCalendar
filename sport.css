@@ -3,7 +3,7 @@ font-family: 'Noto Sans', sans-serif; */
 
 .history {
     min-width: 1400px;
-    background-image: url("../images/BG-sport.jpg");
+    background-image: url("/historyCalendar/images/BG-sport.jpg");
 }
 
 .hostory-main {

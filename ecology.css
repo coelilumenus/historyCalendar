@@ -3,7 +3,7 @@ font-family: 'Noto Sans', sans-serif; */
 
 .history {
     min-width: 1400px;
-    background-image: url("../images/BG-ecology.jpg");
+    background-image: url("/historyCalendar/images/BG-ecology.jpg");
 }
 
 .hostory-main {
