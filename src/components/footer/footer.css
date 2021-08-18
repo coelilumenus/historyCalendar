@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 100px;
+}
+
+.footer-p {
+    font-family: 'Montserrat', sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 30px auto;
+    opacity: 0.5;  
+    width: 300px; 
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item { 
+    padding: 90px 10px 90px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;     
+}
