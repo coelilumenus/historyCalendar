@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import Header from '../header/header';
-import { HistoryPage } from '../pages';
+import { HistoryPage, EcologyPage, SportPage, ArtPage, SciencePage } from '../pages';
 import OnScroll from '../services/scroll';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
 
@@ -13,7 +14,25 @@ const App = () => {
     return (
         <>
             <Header />
-            <HistoryPage />
+            <Router>
+                <Switch>
+                    <Route path="/ecology">
+                        <EcologyPage />
+                    </Route>
+                    <Route path="/sport">
+                        <SportPage />
+                    </Route>
+                    <Route path="/art">
+                        <ArtPage />
+                    </Route>
+                    <Route path="/science">
+                        <SciencePage />
+                    </Route>
+                    <Route path="/">
+                        <HistoryPage />
+                    </Route>
+                </Switch>
+            </Router>
         </>
     )
 }
