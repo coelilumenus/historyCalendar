@@ -2,7 +2,6 @@ import React from 'react';
 import Title from '../../title/title';
 import ContentCard from '../../contentCard/contentCard';
 import Footer from '../../footer/footer';
-import './ecologyPage.css';
 
 const EcologyPage = () => {
     return (

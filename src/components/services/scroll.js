@@ -35,7 +35,7 @@ const OnScroll = () => {
         
         setTimeout(() => {
             animOnScroll();
-        }, 400);
+        }, 200);
     }
 }
 

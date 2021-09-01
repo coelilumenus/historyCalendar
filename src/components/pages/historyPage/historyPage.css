@@ -1,9 +1,0 @@
-body {
-    min-width: 1400px;
-    background: no-repeat content-box url("./history-bg.jpg");
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}

@@ -1,21 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../header/header';
 import { HistoryPage, EcologyPage, SportPage, ArtPage, SciencePage } from '../pages';
 import OnScroll from '../services/scroll';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import './app.css';
 
 const App = () => {
 
+    const [location, listenLocation] = useState([]);
+
     useEffect(() => {
         OnScroll();
-    });
-
-
+    }, [location.key]);
+    
     return (
         <>
-            <Header />
-            <Router>
-                <Switch>
+            <div>
+                <Router>
+                    <Header listenLocation={listenLocation} />
                     <Route path="/ecology">
                         <EcologyPage />
                     </Route>
@@ -28,11 +30,11 @@ const App = () => {
                     <Route path="/science">
                         <SciencePage />
                     </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <HistoryPage />
                     </Route>
-                </Switch>
-            </Router>
+                </Router>
+            </div>
         </>
     )
 }

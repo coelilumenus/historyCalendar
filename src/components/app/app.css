@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.art {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    background: no-repeat url("../bgImages/art-bg.jpg");
+    z-index: -2;
+}

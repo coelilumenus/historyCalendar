@@ -1,17 +1,23 @@
 import React from 'react';
+import { NavLink, useLocation } from "react-router-dom";
 import './header.css'
 
-const Header = () => {
+const Header = ({ listenLocation }) => {
+
+    let location = useLocation();
+
     return (
-    <header className="container">
-        <nav className="nav-items">
-            <a href="/historyCalendar/index.html" className="nav-item _active">История</a>
-            <a href="/historyCalendar/ecology.html" className="nav-item">Экология</a>
-            <a href="/historyCalendar/sport.html" className="nav-item">Спорт</a>
-            <a href="/historyCalendar/art.html" className="nav-item">Искусство</a>
-            <a href="/historyCalendar/science.html" className="nav-item">Наука</a>
-        </nav>
-    </header>
+        <header className="container">
+            <nav
+                onClick={() => { listenLocation(location) }}
+                className="nav-items">
+                <NavLink to="/" className="nav-item _active">История</NavLink>
+                <NavLink to="/ecology" className="nav-item">Экология</NavLink>
+                <NavLink to="/sport" className="nav-item">Спорт</NavLink>
+                <NavLink to="/art" className="nav-item">Искусство</NavLink>
+                <NavLink to="/science" className="nav-item">Наука</NavLink>
+            </nav>
+        </header>
     )
 }
 
