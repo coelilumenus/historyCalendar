@@ -13,3 +13,51 @@ body {
     background: no-repeat url("../bgImages/art-bg.jpg");
     z-index: -2;
 }
+
+.history {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    background: no-repeat url("../bgImages/history-bg.jpg");
+    z-index: -2;
+}
+
+.sport {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    background: no-repeat url("../bgImages/sport-bg.jpg");
+    z-index: -2;
+}
+
+.science {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    background: no-repeat url("../bgImages/science-bg.jpg");
+    z-index: -2;
+}
+
+.ecology {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    background: no-repeat url("../bgImages/ecology-bg.jpg");
+    z-index: -2;
+}

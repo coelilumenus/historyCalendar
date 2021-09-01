@@ -9,13 +9,13 @@ const Header = ({ listenLocation }) => {
     return (
         <header className="container">
             <nav
-                onClick={() => { listenLocation(location) }}
+                onClick={listenLocation(location)} // call without arrow-function because trying fix problem with location-data
                 className="nav-items">
-                <NavLink to="/" className="nav-item _active">История</NavLink>
-                <NavLink to="/ecology" className="nav-item">Экология</NavLink>
-                <NavLink to="/sport" className="nav-item">Спорт</NavLink>
-                <NavLink to="/art" className="nav-item">Искусство</NavLink>
-                <NavLink to="/science" className="nav-item">Наука</NavLink>
+                <NavLink exact to="/" className="nav-item" activeClassName="nav-item__active">История</NavLink>
+                <NavLink to="/ecology" className="nav-item" activeClassName="nav-item__active">Экология</NavLink>
+                <NavLink to="/sport" className="nav-item" activeClassName="nav-item__active">Спорт</NavLink>
+                <NavLink to="/art" className="nav-item" activeClassName="nav-item__active">Искусство</NavLink>
+                <NavLink to="/science" className="nav-item" activeClassName="nav-item__active">Наука</NavLink>
             </nav>
         </header>
     )

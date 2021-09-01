@@ -8,14 +8,22 @@ import './app.css';
 const App = () => {
 
     const [location, listenLocation] = useState([]);
-
+    
     useEffect(() => {
         OnScroll();
     }, [location.key]);
     
+    
+    let bgName;
+    if (!location.pathname || location.pathname.length < 2) {
+        bgName = 'history'
+    } else {
+        bgName = `${location.pathname.slice(1)}`
+    }
+    
     return (
         <>
-            <div>
+            <div className={bgName}>
                 <Router>
                     <Header listenLocation={listenLocation} />
                     <Route path="/ecology">

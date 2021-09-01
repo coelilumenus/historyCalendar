@@ -17,3 +17,15 @@
     font-weight: 800;
     font-size: 12px;     
 }
+
+.nav-item:hover {
+    color: #afafaf;
+}
+
+.nav-item__active {
+    color: #FBD784;
+}
+
+.nav-item__active:hover {
+    color: #FBD784;
+}
