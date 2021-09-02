@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/historyCalendar/static/css/main.740faa35.chunk.css",
-    "main.js": "/historyCalendar/static/js/main.0051a1a0.chunk.js",
-    "main.js.map": "/historyCalendar/static/js/main.0051a1a0.chunk.js.map",
+    "main.js": "/historyCalendar/static/js/main.9474ab4d.chunk.js",
+    "main.js.map": "/historyCalendar/static/js/main.9474ab4d.chunk.js.map",
     "runtime-main.js": "/historyCalendar/static/js/runtime-main.db0e7121.js",
     "runtime-main.js.map": "/historyCalendar/static/js/runtime-main.db0e7121.js.map",
     "static/js/2.fc5eee92.chunk.js": "/historyCalendar/static/js/2.fc5eee92.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.db0e7121.js",
     "static/js/2.fc5eee92.chunk.js",
     "static/css/main.740faa35.chunk.css",
-    "static/js/main.0051a1a0.chunk.js"
+    "static/js/main.9474ab4d.chunk.js"
   ]
 }
