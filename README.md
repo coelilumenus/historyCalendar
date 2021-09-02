@@ -1,4 +1,4 @@
-https://coelilumenus.github.io/historyCalendar/
+[Перейти на сайт](https://coelilumenus.github.io/historyCalendar/)
 
 React SPA.
  1. Use react-router
