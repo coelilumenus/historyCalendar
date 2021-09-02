@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/historyCalendar/static/css/main.740faa35.chunk.css",
+    "main.js": "/historyCalendar/static/js/main.4c9c6a30.chunk.js",
+    "main.js.map": "/historyCalendar/static/js/main.4c9c6a30.chunk.js.map",
+    "runtime-main.js": "/historyCalendar/static/js/runtime-main.db0e7121.js",
+    "runtime-main.js.map": "/historyCalendar/static/js/runtime-main.db0e7121.js.map",
+    "static/js/2.fc5eee92.chunk.js": "/historyCalendar/static/js/2.fc5eee92.chunk.js",
+    "static/js/2.fc5eee92.chunk.js.map": "/historyCalendar/static/js/2.fc5eee92.chunk.js.map",
+    "index.html": "/historyCalendar/index.html",
+    "static/css/main.740faa35.chunk.css.map": "/historyCalendar/static/css/main.740faa35.chunk.css.map",
+    "static/js/2.fc5eee92.chunk.js.LICENSE.txt": "/historyCalendar/static/js/2.fc5eee92.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/historyCalendar/static/media/sport-bg.66f1dd64.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db0e7121.js",
+    "static/js/2.fc5eee92.chunk.js",
+    "static/css/main.740faa35.chunk.css",
+    "static/js/main.4c9c6a30.chunk.js"
+  ]
+}
